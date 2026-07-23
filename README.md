@@ -1,7 +1,6 @@
 # Datadog Observability Platform
 
-### End-to-end application observability using Flask, DogStatsD, Datadog APM, centralised log management, SLO engineering, burn-rate alerting, and incident response
-
+### Production-grade reliability engineering platform demonstrating SLO design, burn-rate alerting, chaos engineering, and the complete three-pillar observability lifecycle using Flask and Datadog
 ---
 
 ## Overview
