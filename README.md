@@ -208,31 +208,70 @@ RCA + Postmortem documentation
 
 ## Screenshots
 
-### SLO compliance and error budget
-![SLO Compliance](screenshots/slo_compliance.png)
+## Dashboard Overview
 
-### Burn-rate monitors
-![Burn Rate Monitors](screenshots/burn_rate_alerts.png)
+![Traffic Dashboard](images/dashboard/dashboard_traffic.png)
 
-### APM flow map
-![APM Flow Map](screenshots/apm_flow_map.png)
+![Service Health Dashboard](images/dashboard/dashboard_service_health.png)
 
-### APM endpoints with request count, error rate, P95
-![APM Endpoints](screenshots/apm_endpoints.png)
+![Operations Dashboard](images/dashboard/dashboard_operations.png)
 
-### Flame graph — /slow endpoint (2s span visually obvious)
-![Flame Graph](screenshots/apm_flame_graph_slow.png)
+![Performance Dashboard](images/dashboard/dashboard_performance.png)
 
-### Log Explorer with structured facets
-![Log Explorer](screenshots/log_explorer.png)
+## Service Level Objectives (SLOs)
 
-### Grok parser pipeline
-![Grok Parser](screenshots/grok_parser.png)
+### Configured SLOs
+![Configured SLOs](images/slo/slo_slo_list.png)
 
-### Metrics Explorer
-![Metrics Explorer](screenshots/metrics_explorer.png)
+### Service Availability SLO
+![Service Availability SLO](images/slo/slo_service_availability.png)
+
+### Service Latency SLO
+![Service Latency SLO](images/slo/slo_latency.png)
+
+## Custom Metrics
+
+### Successful Service Requests
+![Successful Service Requests](images/metric/metric_service_success.png)
 
 ---
+
+## Monitors
+
+### Configured Monitors
+![Configured Monitors](images/monitors/monitors_all.png)
+
+---
+
+## Log Management
+
+### Log Explorer
+![Log Explorer](images/logs/logs.png)
+
+### Log Explorer After Applying Grok Parser
+![Log Explorer After Applying Grok Parser](images/logs/after_adding_grok_parser.png)
+
+---
+
+## Application Performance Monitoring (APM)
+
+### Service Flow Map
+![Service Flow Map](images/apm/apm_flow_map.png)
+
+### Instrumented Service Endpoints
+![APM Endpoint 1](images/apm/apm_endpoint1.png)
+
+![APM Endpoint 2](images/apm/apm_endpoint2.png)
+
+![APM Endpoint 3](images/apm/apm_endpoint3.png)
+
+### Flame Graph Analysis
+
+#### Flame Graph 1
+![Flame Graph 1](images/apm/apm_flame_graph1.png)
+
+#### Flame Graph 2
+![Flame Graph 2](images/apm/apm_flame_graph2.png)
 
 ## Repository structure
 
