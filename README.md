@@ -218,6 +218,8 @@ RCA + Postmortem documentation
 
 ![Performance Dashboard](images/dashboard/dashboard_performance.png)
 
+---
+
 ## Service Level Objectives (SLOs)
 
 ### Configured SLOs
@@ -229,10 +231,24 @@ RCA + Postmortem documentation
 ### Service Latency SLO
 ![Service Latency SLO](images/slo/slo_latency.png)
 
+---
+
 ## Custom Metrics
 
 ### Successful Service Requests
 ![Successful Service Requests](images/metric/metric_service_success.png)
+
+### Failed Service Requests
+![Failed Service Requests](images/metric/metric_service_failure.png)
+
+### Service Error Requests
+![Service Error Requests](images/metric/metric_service_error.png)
+
+### Service Response Time
+![Service Response Time](images/metric/metric_service_response.png)
+
+### Metric Tags
+![Metric Tags](images/metric/metrics_tags_in_custom_metrics.png)
 
 ---
 
@@ -241,12 +257,24 @@ RCA + Postmortem documentation
 ### Configured Monitors
 ![Configured Monitors](images/monitors/monitors_all.png)
 
+### Fast Burn Rate Monitor
+![Fast Burn Rate Monitor](images/monitors/monitors_fast_burn_rate.png)
+
+### Medium Burn Rate Monitor
+![Medium Burn Rate Monitor](images/monitors/monitors_medium_burn_rate.png)
+
+### Slow Burn Rate Monitor
+![Slow Burn Rate Monitor](images/monitors/monitors_slow_burn_rate.png)
+
 ---
 
 ## Log Management
 
 ### Log Explorer
 ![Log Explorer](images/logs/logs.png)
+
+### Log Explorer Before Applying Grok Parser
+![Log Explorer Before Applying Grok Parser](images/logs/logs_before_adding_grok_parser.png)
 
 ### Log Explorer After Applying Grok Parser
 ![Log Explorer After Applying Grok Parser](images/logs/after_adding_grok_parser.png)
@@ -272,7 +300,6 @@ RCA + Postmortem documentation
 
 #### Flame Graph 2
 ![Flame Graph 2](images/apm/apm_flame_graph2.png)
-
 ## Repository structure
 
 ```
